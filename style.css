@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -34,7 +38,7 @@ a,
 
 .section-1 {
     display: flex;
-    height: 20rem;
+    height: 30vh;
     padding: 1rem 20vw;
     align-items: center;
     justify-content: space-between;
@@ -43,7 +47,7 @@ a,
 
 .section-1 .box {
     height: 75%;
-    width: 48%;
+    width: 50%;
 }
 
 .section-1 .box h1 {
@@ -53,9 +57,14 @@ a,
     margin: 0;
 }
 
+.main-image-box {
+    display: flex;
+    justify-content: right;
+}
+
 .section-1 .box img {
-    height: 100%;
     width: 100%;
+    height: auto;
 }
 
 .section-1 .box button {
@@ -67,4 +76,30 @@ a,
 
 .section-1 .box p {
     margin: 1rem 0;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding: 1rem 20vw;
+    align-items: center;
+}
+
+.section-2-title {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.section-2-title h1 {
+    size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0;
+}
+
+.section-2-content {
+    
 }
